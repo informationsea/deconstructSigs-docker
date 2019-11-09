@@ -1,0 +1,6 @@
+options(repos="http://cran.rstudio.com/")
+install.packages(c("BiocManager"))
+BiocManager::install("BSgenome", version = "3.10")
+BiocManager::install("BSgenome.Hsapiens.UCSC.hg19", version = "3.10")
+BiocManager::install("GenomeInfoDb", version = "3.10")
+install.packages(c("deconstructSigs", "dplyr", "ggplot2", "tidyr", "xlsx", "vcfR"))
